@@ -75,7 +75,6 @@ proxies:
     path: /146.190.107.103-443
     headers:
       Host: quiz.int.vidio.com.ouzora.dpdns.org
-  #Benxx-Project
 proxies:
 - name: ID - PT Pusat Media Indonesia [quiz.int.vidio.com] 1-[TROJAN-TLS]
   server: quiz.int.vidio.com
