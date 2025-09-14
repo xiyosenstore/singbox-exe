@@ -1,6 +1,6 @@
 #Benxx-Project
 proxies:
-- name: ID - PT Telekomunikasi Indonesia [quiz.int.vidio.com] 1-[VLESS-TLS]
+- name: SG - Streamline Servers Pty Ltd [quiz.int.vidio.com] 1-[VLESS-TLS]
   server: quiz.int.vidio.com
   port: 443
   type: vless
@@ -12,10 +12,10 @@ proxies:
   network: ws
   servername: quiz.int.vidio.com.ouzora.dpdns.org
   ws-opts:
-    path: /36.95.152.58-12137
+    path: /83.142.30.5-2096
     headers:
       Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: ID - PT MITRA VISIONER PRATAMA [quiz.int.vidio.com] 2-[VLESS-TLS]
+- name: SG - MoeDove [quiz.int.vidio.com] 2-[VLESS-TLS]
   server: quiz.int.vidio.com
   port: 443
   type: vless
@@ -27,10 +27,10 @@ proxies:
   network: ws
   servername: quiz.int.vidio.com.ouzora.dpdns.org
   ws-opts:
-    path: /206.84.101.83-8443
+    path: /45.207.216.139-443
     headers:
       Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: ID - Alibaba (US) Technology Co.  Ltd. [quiz.int.vidio.com] 3-[VLESS-TLS]
+- name: SG - DigitalOcean  LLC [quiz.int.vidio.com] 3-[VLESS-TLS]
   server: quiz.int.vidio.com
   port: 443
   type: vless
@@ -42,10 +42,10 @@ proxies:
   network: ws
   servername: quiz.int.vidio.com.ouzora.dpdns.org
   ws-opts:
-    path: /149.129.250.8-443
+    path: /159.223.53.70-2053
     headers:
       Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: ID - CV. Rumahweb Indonesia [quiz.int.vidio.com] 4-[VLESS-TLS]
+- name: SG - Alibaba (US) Technology Co.  Ltd. [quiz.int.vidio.com] 4-[VLESS-TLS]
   server: quiz.int.vidio.com
   port: 443
   type: vless
@@ -57,10 +57,10 @@ proxies:
   network: ws
   servername: quiz.int.vidio.com.ouzora.dpdns.org
   ws-opts:
-    path: /203.194.112.119-8443
+    path: /47.237.149.38-8443
     headers:
       Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: ID - 21/F  Ciputra World [quiz.int.vidio.com] 5-[VLESS-TLS]
+- name: SG - DigitalOcean  LLC 3 [quiz.int.vidio.com] 5-[VLESS-TLS]
   server: quiz.int.vidio.com
   port: 443
   type: vless
@@ -72,384 +72,73 @@ proxies:
   network: ws
   servername: quiz.int.vidio.com.ouzora.dpdns.org
   ws-opts:
-    path: /149.129.250.8-443
+    path: /146.190.107.103-443
     headers:
       Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: ID - Lightnode Limited [quiz.int.vidio.com] 6-[VLESS-TLS]
+  #Benxx-Project
+proxies:
+- name: ID - PT Pusat Media Indonesia [quiz.int.vidio.com] 1-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
+  type: trojan
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /156.244.1.250-8443
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: ID - Amazon.com  Inc. [quiz.int.vidio.com] 7-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /43.218.77.16-1443
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: ID - Linode [quiz.int.vidio.com] 8-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /172.232.248.227-587
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: ID - PT Pusat Media Indonesia [quiz.int.vidio.com] 9-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
+  sni: quiz.int.vidio.com.ouzora.dpdns.org
   ws-opts:
     path: /103.6.207.108-8080
     headers:
       Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: ID - Amazon.com  Inc. [quiz.int.vidio.com] 10-[VLESS-TLS]
+- name: ID - Linode [quiz.int.vidio.com] 2-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
+  type: trojan
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
+  sni: quiz.int.vidio.com.ouzora.dpdns.org
+  ws-opts:
+    path: /172.232.248.227-587
+    headers:
+      Host: quiz.int.vidio.com.ouzora.dpdns.org
+- name: ID - Amazon.com  Inc. [quiz.int.vidio.com] 3-[TROJAN-TLS]
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  udp: false
+  skip-cert-verify: true
+  network: ws
+  sni: quiz.int.vidio.com.ouzora.dpdns.org
   ws-opts:
     path: /43.218.77.16-443
     headers:
       Host: quiz.int.vidio.com.ouzora.dpdns.org
-#Benxx-Project
-proxies:
-- name: SG - Tencent Building  Kejizhongyi Avenue [quiz.int.vidio.com] 1-[VLESS-TLS]
+- name: ID - Lightnode Limited [quiz.int.vidio.com] 4-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
+  type: trojan
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
+  sni: quiz.int.vidio.com.ouzora.dpdns.org
   ws-opts:
-    path: /43.156.27.180-8443
+    path: /156.244.1.250-8443
     headers:
       Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - Amazon.com  Inc. [quiz.int.vidio.com] 2-[VLESS-TLS]
+- name: ID - CV. Rumahweb Indonesia [quiz.int.vidio.com] 5-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
+  type: trojan
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
+  sni: quiz.int.vidio.com.ouzora.dpdns.org
   ws-opts:
-    path: /52.76.110.129-20001
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - Tencent Building  Kejizhongyi Avenue [quiz.int.vidio.com] 3-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /129.226.150.167-443
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - Alibaba (US) Technology Co.  Ltd. [quiz.int.vidio.com] 4-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /161.117.81.228-4443
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - OVH SAS [quiz.int.vidio.com] 5-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /51.79.158.58-8443
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - Amazon.com  Inc. [quiz.int.vidio.com] 6-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /13.250.14.76-443
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - Oracle Corporation [quiz.int.vidio.com] 7-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /138.2.95.61-1111
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - DigitalOcean  LLC [quiz.int.vidio.com] 8-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /159.223.53.70-2053
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - DigitalOcean  LLC [quiz.int.vidio.com] 9-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /178.128.80.43-443
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - Amazon.com  Inc. [quiz.int.vidio.com] 10-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /13.250.97.146-443
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org#Benxx-Project
-proxies:
-- name: SG - Tencent Building  Kejizhongyi Avenue [quiz.int.vidio.com] 1-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /43.156.27.180-8443
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - Amazon.com  Inc. [quiz.int.vidio.com] 2-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /52.76.110.129-20001
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - Tencent Building  Kejizhongyi Avenue [quiz.int.vidio.com] 3-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /129.226.150.167-443
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - Alibaba (US) Technology Co.  Ltd. [quiz.int.vidio.com] 4-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /161.117.81.228-4443
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - OVH SAS [quiz.int.vidio.com] 5-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /51.79.158.58-8443
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - Amazon.com  Inc. [quiz.int.vidio.com] 6-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /13.250.14.76-443
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - Oracle Corporation [quiz.int.vidio.com] 7-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /138.2.95.61-1111
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - DigitalOcean  LLC [quiz.int.vidio.com] 8-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /159.223.53.70-2053
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - DigitalOcean  LLC [quiz.int.vidio.com] 9-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /178.128.80.43-443
-    headers:
-      Host: quiz.int.vidio.com.ouzora.dpdns.org
-- name: SG - Amazon.com  Inc. [quiz.int.vidio.com] 10-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.ouzora.dpdns.org
-  ws-opts:
-    path: /13.250.97.146-443
+    path: /203.194.112.119-2053
     headers:
       Host: quiz.int.vidio.com.ouzora.dpdns.org
