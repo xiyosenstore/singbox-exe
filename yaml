@@ -1,212 +1,197 @@
 #Benxx-Project
-
-- name: SG - The Constant Company  LLC [quiz.int.vidio.com] 1-[VLESS-TLS]
+proxies:
+- name: SG - FIRST SERVER LIMITED [quiz.int.vidio.com] 1-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
+  type: trojan
+  password: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  sni: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /139.180.191.96-31001
+    path: /194.36.179.17-2053
     headers:
       Host: quiz.int.vidio.com.balckwolf.dpdns.org
-- name: SG - The Constant Company  LLC [quiz.int.vidio.com] 2-[VLESS-TLS]
+- name: SG - DigitalOcean  LLC [quiz.int.vidio.com] 2-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
+  type: trojan
+  password: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  sni: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /149.28.158.103-10030
+    path: /128.199.172.224-443
     headers:
       Host: quiz.int.vidio.com.balckwolf.dpdns.org
-- name: SG - The Constant Company  LLC [quiz.int.vidio.com] 3-[VLESS-TLS]
+- name: SG - DigitalOcean  LLC [quiz.int.vidio.com] 3-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
+  type: trojan
+  password: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  sni: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /66.42.51.60-8443
+    path: /128.199.216.53-443
     headers:
       Host: quiz.int.vidio.com.balckwolf.dpdns.org
-- name: SG - Regxa Company for Information Technology Ltd [quiz.int.vidio.com] 4-[VLESS-TLS]
+- name: SG - The Constant Company  LLC [quiz.int.vidio.com] 4-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
+  type: trojan
+  password: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  sni: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /206.206.77.53-443
+    path: /45.32.106.141-443
     headers:
       Host: quiz.int.vidio.com.balckwolf.dpdns.org
-- name: SG - Akamai Connected Cloud [quiz.int.vidio.com] 5-[VLESS-TLS]
+- name: SG - Alibaba (US) Technology Co.  Ltd. [quiz.int.vidio.com] 5-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
+  type: trojan
+  password: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  sni: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /172.104.161.205-443
+    path: /8.222.161.217-443
     headers:
       Host: quiz.int.vidio.com.balckwolf.dpdns.org
-- name: SG - Hetzner Online GmbH [quiz.int.vidio.com] 7-[VLESS-TLS]
+- name: SG - The Constant Company  LLC [quiz.int.vidio.com] 6-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
+  type: trojan
+  password: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  sni: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /5.223.47.32-443
+    path: /45.76.159.76-443
     headers:
       Host: quiz.int.vidio.com.balckwolf.dpdns.org
-- name: SG - M247 Europe SRL [quiz.int.vidio.com] 8-[VLESS-TLS]
+- name: SG - Coaxial Cable LLC [quiz.int.vidio.com] 7-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
+  type: trojan
+  password: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  sni: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /38.180.249.123-443
+    path: /92.112.21.24-443
     headers:
       Host: quiz.int.vidio.com.balckwolf.dpdns.org
-- name: SG - Tencent Building  Kejizhongyi Avenue [quiz.int.vidio.com] 9-[VLESS-TLS]
+- name: SG - OVH SAS [quiz.int.vidio.com] 8-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
+  type: trojan
+  password: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  sni: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /43.156.181.203-443
+    path: /15.235.192.85-443
     headers:
       Host: quiz.int.vidio.com.balckwolf.dpdns.org
-- name: SG - DigitalOcean  LLC [quiz.int.vidio.com] 10-[VLESS-TLS]
+- name: SG - Oracle Corporation [quiz.int.vidio.com] 9-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
+  type: trojan
+  password: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  sni: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /68.183.227.180-443
+    path: /138.2.102.210-443
     headers:
       Host: quiz.int.vidio.com.balckwolf.dpdns.org
-- name: ID - Linode [quiz.int.vidio.com] 1-[VLESS-TLS]
+- name: SG - DigitalOcean  LLC [quiz.int.vidio.com] 10-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
+  type: trojan
+  password: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  sni: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /172.232.248.227-587
+    path: /68.183.227.236-443
     headers:
       Host: quiz.int.vidio.com.balckwolf.dpdns.org
-- name: ID - Evoxt (ID) [quiz.int.vidio.com] 2-[VLESS-TLS]
+- name: SG - CDS Global Cloud Co.  Ltd [quiz.int.vidio.com] 11-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
+  type: trojan
+  password: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  sni: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /142.111.15.104-443
+    path: /164.52.2.100-443
     headers:
       Host: quiz.int.vidio.com.balckwolf.dpdns.org
-- name: ID - Linode [quiz.int.vidio.com] 3-[VLESS-TLS]
+- name: SG - Alibaba (US) Technology Co.  Ltd. [quiz.int.vidio.com] 12-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
+  type: trojan
+  password: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  sni: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /172.232.234.246-443
+    path: /47.236.21.74-443
     headers:
       Host: quiz.int.vidio.com.balckwolf.dpdns.org
-- name: ID - Amazon.com  Inc. [quiz.int.vidio.com] 4-[VLESS-TLS]
+- name: SG - Amazon.com  Inc. [quiz.int.vidio.com] 13-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
+  type: trojan
+  password: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  sni: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /43.218.77.16-1443
+    path: /47.130.110.89-443
     headers:
       Host: quiz.int.vidio.com.balckwolf.dpdns.org
-- name: ID - Lightnode Limited [quiz.int.vidio.com] 5-[VLESS-TLS]
+- name: SG - The Constant Company  LLC [quiz.int.vidio.com] 14-[TROJAN-TLS]
   server: quiz.int.vidio.com
   port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
+  type: trojan
+  password: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  sni: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /156.244.1.250-8443
+    path: /45.76.189.82-443
+    headers:
+      Host: quiz.int.vidio.com.balckwolf.dpdns.org
+- name: SG - OVH SAS [quiz.int.vidio.com] 15-[TROJAN-TLS]
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  udp: false
+  skip-cert-verify: true
+  network: ws
+  sni: quiz.int.vidio.com.balckwolf.dpdns.org
+  ws-opts:
+    path: /51.79.158.58-2053
     headers:
       Host: quiz.int.vidio.com.balckwolf.dpdns.org
