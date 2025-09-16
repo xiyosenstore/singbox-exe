@@ -75,21 +75,6 @@
     path: /172.104.161.205-443
     headers:
       Host: quiz.int.vidio.com.balckwolf.dpdns.org
-- name: SG - The Constant Company  LLC [quiz.int.vidio.com] 6-[VLESS-TLS]
-  server: quiz.int.vidio.com
-  port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: quiz.int.vidio.com.balckwolf.dpdns.org
-  ws-opts:
-    path: /207.148.124.166-443
-    headers:
-      Host: quiz.int.vidio.com.balckwolf.dpdns.org
 - name: SG - Hetzner Online GmbH [quiz.int.vidio.com] 7-[VLESS-TLS]
   server: quiz.int.vidio.com
   port: 443
@@ -150,22 +135,6 @@
     path: /68.183.227.180-443
     headers:
       Host: quiz.int.vidio.com.balckwolf.dpdns.org
-
-- name: FI - I-SERVERS LTD  1-[VLESS-TLS]
-  server: quiz.vidio.com
-  port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: blackshadow.dpdns.org
-  ws-opts:
-    path: /46.243.6.25-443
-    headers:
-      Host: blackshadow.dpdns.org
 - name: ID - Linode [quiz.int.vidio.com] 1-[VLESS-TLS]
   server: quiz.int.vidio.com
   port: 443
