@@ -1,6 +1,157 @@
 #Benxx-Project
-proxies:
-- name: ID - linode [quiz.vidio.com] 1-[VLESS-TLS]
+
+- name: SG - The Constant Company  LLC [quiz.int.vidio.com] 1-[VLESS-TLS]
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  cipher: auto
+  tls: true
+  udp: false
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  ws-opts:
+    path: /139.180.191.96-31001
+    headers:
+      Host: quiz.int.vidio.com.balckwolf.dpdns.org
+- name: SG - The Constant Company  LLC [quiz.int.vidio.com] 2-[VLESS-TLS]
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  cipher: auto
+  tls: true
+  udp: false
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  ws-opts:
+    path: /149.28.158.103-10030
+    headers:
+      Host: quiz.int.vidio.com.balckwolf.dpdns.org
+- name: SG - The Constant Company  LLC [quiz.int.vidio.com] 3-[VLESS-TLS]
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  cipher: auto
+  tls: true
+  udp: false
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  ws-opts:
+    path: /66.42.51.60-8443
+    headers:
+      Host: quiz.int.vidio.com.balckwolf.dpdns.org
+- name: SG - Regxa Company for Information Technology Ltd [quiz.int.vidio.com] 4-[VLESS-TLS]
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  cipher: auto
+  tls: true
+  udp: false
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  ws-opts:
+    path: /206.206.77.53-443
+    headers:
+      Host: quiz.int.vidio.com.balckwolf.dpdns.org
+- name: SG - Akamai Connected Cloud [quiz.int.vidio.com] 5-[VLESS-TLS]
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  cipher: auto
+  tls: true
+  udp: false
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  ws-opts:
+    path: /172.104.161.205-443
+    headers:
+      Host: quiz.int.vidio.com.balckwolf.dpdns.org
+- name: SG - The Constant Company  LLC [quiz.int.vidio.com] 6-[VLESS-TLS]
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  cipher: auto
+  tls: true
+  udp: false
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  ws-opts:
+    path: /207.148.124.166-443
+    headers:
+      Host: quiz.int.vidio.com.balckwolf.dpdns.org
+- name: SG - Hetzner Online GmbH [quiz.int.vidio.com] 7-[VLESS-TLS]
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  cipher: auto
+  tls: true
+  udp: false
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  ws-opts:
+    path: /5.223.47.32-443
+    headers:
+      Host: quiz.int.vidio.com.balckwolf.dpdns.org
+- name: SG - M247 Europe SRL [quiz.int.vidio.com] 8-[VLESS-TLS]
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  cipher: auto
+  tls: true
+  udp: false
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  ws-opts:
+    path: /38.180.249.123-443
+    headers:
+      Host: quiz.int.vidio.com.balckwolf.dpdns.org
+- name: SG - Tencent Building  Kejizhongyi Avenue [quiz.int.vidio.com] 9-[VLESS-TLS]
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  cipher: auto
+  tls: true
+  udp: false
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  ws-opts:
+    path: /43.156.181.203-443
+    headers:
+      Host: quiz.int.vidio.com.balckwolf.dpdns.org
+- name: SG - DigitalOcean  LLC [quiz.int.vidio.com] 10-[VLESS-TLS]
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  cipher: auto
+  tls: true
+  udp: false
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.balckwolf.dpdns.org
+  ws-opts:
+    path: /68.183.227.180-443
+    headers:
+      Host: quiz.int.vidio.com.balckwolf.dpdns.org
+
+- name: FI - I-SERVERS LTD  1-[VLESS-TLS]
   server: quiz.vidio.com
   port: 443
   type: vless
@@ -12,11 +163,11 @@ proxies:
   network: ws
   servername: blackshadow.dpdns.org
   ws-opts:
-    path: /172.232.238.52-443
+    path: /46.243.6.25-443
     headers:
       Host: blackshadow.dpdns.org
-- name: ID - Amazon.com  Inc. [quiz.vidio.com] 2-[VLESS-TLS]
-  server: quiz.vidio.com
+- name: ID - Linode [quiz.int.vidio.com] 1-[VLESS-TLS]
+  server: quiz.int.vidio.com
   port: 443
   type: vless
   uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
@@ -25,13 +176,13 @@ proxies:
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: blackshadow.dpdns.org
+  servername: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /43.218.77.16-1443
+    path: /172.232.248.227-587
     headers:
-      Host: blackshadow.dpdns.org
-- name: ID - PT Telekomunikasi Indonesia [quiz.vidio.com] 3-[VLESS-TLS]
-  server: quiz.vidio.com
+      Host: quiz.int.vidio.com.balckwolf.dpdns.org
+- name: ID - Evoxt (ID) [quiz.int.vidio.com] 2-[VLESS-TLS]
+  server: quiz.int.vidio.com
   port: 443
   type: vless
   uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
@@ -40,13 +191,13 @@ proxies:
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: blackshadow.dpdns.org
+  servername: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /36.95.152.58-12137
+    path: /142.111.15.104-443
     headers:
-      Host: blackshadow.dpdns.org
-- name: ID - 21/F  Ciputra World [quiz.vidio.com] 4-[VLESS-TLS]
-  server: quiz.vidio.com
+      Host: quiz.int.vidio.com.balckwolf.dpdns.org
+- name: ID - Linode [quiz.int.vidio.com] 3-[VLESS-TLS]
+  server: quiz.int.vidio.com
   port: 443
   type: vless
   uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
@@ -55,88 +206,13 @@ proxies:
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: blackshadow.dpdns.org
-  ws-opts:
-    path: /149.129.250.8-443
-    headers:
-      Host: blackshadow.dpdns.org
-- name: ID - Linode [quiz.vidio.com] 5-[VLESS-TLS]
-  server: quiz.vidio.com
-  port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: blackshadow.dpdns.org
-  ws-opts:
-    path: /172.232.234.155-443
-    headers:
-      Host: blackshadow.dpdns.org
-- name: ID - CV. Rumahweb Indonesia [quiz.vidio.com] 6-[VLESS-TLS]
-  server: quiz.vidio.com
-  port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: blackshadow.dpdns.org
-  ws-opts:
-    path: /203.194.112.119-2053
-    headers:
-      Host: blackshadow.dpdns.org
-- name: ID - Akamai Connected Cloud [quiz.vidio.com] 7-[VLESS-TLS]
-  server: quiz.vidio.com
-  port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: blackshadow.dpdns.org
-  ws-opts:
-    path: /172.232.238.56-443
-    headers:
-      Host: blackshadow.dpdns.org
-- name: ID - Lightnode Limited [quiz.vidio.com] 8-[VLESS-TLS]
-  server: quiz.vidio.com
-  port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: blackshadow.dpdns.org
-  ws-opts:
-    path: /156.244.1.250-8443
-    headers:
-      Host: blackshadow.dpdns.org
-- name: ID - Linode [quiz.vidio.com] 9-[VLESS-TLS]
-  server: quiz.vidio.com
-  port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: blackshadow.dpdns.org
+  servername: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
     path: /172.232.234.246-443
     headers:
-      Host: blackshadow.dpdns.org
-- name: ID - PT Pusat Media Indonesia [quiz.vidio.com] 10-[VLESS-TLS]
-  server: quiz.vidio.com
+      Host: quiz.int.vidio.com.balckwolf.dpdns.org
+- name: ID - Amazon.com  Inc. [quiz.int.vidio.com] 4-[VLESS-TLS]
+  server: quiz.int.vidio.com
   port: 443
   type: vless
   uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
@@ -145,13 +221,13 @@ proxies:
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: blackshadow.dpdns.org
+  servername: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /103.6.207.108-8080
+    path: /43.218.77.16-1443
     headers:
-      Host: blackshadow.dpdns.org
-- name: SG - DigitalOcean  LLC [quiz.vidio.com] 1-[VLESS-TLS]
-  server: quiz.vidio.com
+      Host: quiz.int.vidio.com.balckwolf.dpdns.org
+- name: ID - Lightnode Limited [quiz.int.vidio.com] 5-[VLESS-TLS]
+  server: quiz.int.vidio.com
   port: 443
   type: vless
   uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
@@ -160,143 +236,8 @@ proxies:
   udp: false
   skip-cert-verify: true
   network: ws
-  servername: blackshadow.dpdns.org
+  servername: quiz.int.vidio.com.balckwolf.dpdns.org
   ws-opts:
-    path: /152.42.220.9-443
+    path: /156.244.1.250-8443
     headers:
-      Host: blackshadow.dpdns.org
-- name: SG - Oracle Corporation [quiz.vidio.com] 2-[VLESS-TLS]
-  server: quiz.vidio.com
-  port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: blackshadow.dpdns.org
-  ws-opts:
-    path: /168.138.189.91-443
-    headers:
-      Host: blackshadow.dpdns.org
-- name: SG - Alibaba (US) Technology Co.  Ltd. [quiz.vidio.com] 3-[VLESS-TLS]
-  server: quiz.vidio.com
-  port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: blackshadow.dpdns.org
-  ws-opts:
-    path: /8.222.159.134-12314
-    headers:
-      Host: blackshadow.dpdns.org
-- name: SG - Onidel Pty Ltd [quiz.vidio.com] 4-[VLESS-TLS]
-  server: quiz.vidio.com
-  port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: blackshadow.dpdns.org
-  ws-opts:
-    path: /160.22.79.166-443
-    headers:
-      Host: blackshadow.dpdns.org
-- name: SG - DigitalOcean  LLC [quiz.vidio.com] 5-[VLESS-TLS]
-  server: quiz.vidio.com
-  port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: blackshadow.dpdns.org
-  ws-opts:
-    path: /178.128.30.71-443
-    headers:
-      Host: blackshadow.dpdns.org
-- name: SG - DigitalOcean  LLC [quiz.vidio.com] 6-[VLESS-TLS]
-  server: quiz.vidio.com
-  port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: blackshadow.dpdns.org
-  ws-opts:
-    path: /128.199.125.131-443
-    headers:
-      Host: blackshadow.dpdns.org
-- name: SG - Misaka Network  Inc. [quiz.vidio.com] 7-[VLESS-TLS]
-  server: quiz.vidio.com
-  port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: blackshadow.dpdns.org
-  ws-opts:
-    path: /194.156.163.45-443
-    headers:
-      Host: blackshadow.dpdns.org
-- name: SG - Amazon.com  Inc. [quiz.vidio.com] 8-[VLESS-TLS]
-  server: quiz.vidio.com
-  port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: blackshadow.dpdns.org
-  ws-opts:
-    path: /13.250.97.146-443
-    headers:
-      Host: blackshadow.dpdns.org
-- name: SG - Oracle Corporation [quiz.vidio.com] 9-[VLESS-TLS]
-  server: quiz.vidio.com
-  port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: blackshadow.dpdns.org
-  ws-opts:
-    path: /129.150.54.20-13666
-    headers:
-      Host: blackshadow.dpdns.org
-- name: SG - DigitalOcean  LLC [quiz.vidio.com] 10-[VLESS-TLS]
-  server: quiz.vidio.com
-  port: 443
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  cipher: auto
-  tls: true
-  udp: false
-  skip-cert-verify: true
-  network: ws
-  servername: blackshadow.dpdns.org
-  ws-opts:
-    path: /159.89.208.94-443
-    headers:
-      Host: blackshadow.dpdns.org
+      Host: quiz.int.vidio.com.balckwolf.dpdns.org
