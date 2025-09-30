@@ -170,16 +170,16 @@
       "outbounds": [
         "🚀 Latency",
         "direct-out",
-        "SG - FIRST SERVER LIMITED [ VLESS - TLS ]",
-        "SG - DigitalOcean  LLC [ VLESS - TLS ]",
-        "SG - DigitalOcean  LLC [ VLESS - TLS ] 2",
-        "SG - M247 Europe SRL [ VLESS - TLS ]",
-        "SG - NewMedia Express Pte Ltd [ VLESS - TLS ]",
-        "SG - The Constant Company  LLC [ VLESS - TLS ]",
-        "SG - The Constant Company  LLC [ VLESS - TLS ] 2",
-        "SG - The Constant Company  LLC [ VLESS - TLS ] 3",
-        "SG - CDS Global Cloud Co.  Ltd [ VLESS - TLS ]",
-        "SG - DigitalOcean  LLC [ VLESS - TLS ] 3"
+        "SG - FIRST SERVER LIMITED",
+        "SG - DigitalOcean LLC",
+        "SG - Amazon",
+        "SG - M247 Europe SRL",
+        "SG - Akamai",
+        "SG - The Constant Company",
+        "SG - OVH SAS",
+        "SG - SG - DigitalOcean",
+        "SG - CDS Global Cloud Co. Ltd",
+        "SG - Latitude.sh"
       ],
       "default": "🚀 Latency"
     },
@@ -187,16 +187,16 @@
       "type": "urltest",
       "tag": "🚀 Latency",
       "outbounds": [
-        "SG - FIRST SERVER LIMITED [ VLESS - TLS ]",
-        "SG - DigitalOcean  LLC [ VLESS - TLS ]",
-        "SG - DigitalOcean  LLC [ VLESS - TLS ] 2",
-        "SG - M247 Europe SRL [ VLESS - TLS ]",
-        "SG - NewMedia Express Pte Ltd [ VLESS - TLS ]",
-        "SG - The Constant Company  LLC [ VLESS - TLS ]",
-        "SG - The Constant Company  LLC [ VLESS - TLS ] 2",
-        "SG - The Constant Company  LLC [ VLESS - TLS ] 3",
-        "SG - CDS Global Cloud Co.  Ltd [ VLESS - TLS ]",
-        "SG - DigitalOcean  LLC [ VLESS - TLS ] 3"
+        "SG - FIRST SERVER LIMITED",
+        "SG - DigitalOcean LLC",
+        "SG - Amazon",
+        "SG - M247 Europe SRL",
+        "SG - Akamai",
+        "SG - The Constant Company",
+        "SG - OVH SAS",
+        "SG - SG - DigitalOcean",
+        "SG - CDS Global Cloud Co. Ltd",
+        "SG - Latitude.sh"
       ],
       "url": "https://connectivitycheck.gstatic.com/generate_204",
       "interval": "1m30s",
@@ -238,7 +238,7 @@
     },
     {
       "type": "vless",
-      "tag": "SG - FIRST SERVER LIMITED [ VLESS - TLS ]",
+      "tag": "SG - FIRST SERVER LIMITED",
       "server": "ava.game.naver.com",
       "server_port": 443,
       "uuid": "fc60147e-76b8-4bc5-b691-90b2da79e3d2",
@@ -259,7 +259,7 @@
     },
     {
       "type": "vless",
-      "tag": "SG - DigitalOcean  LLC [ VLESS - TLS ]",
+      "tag": "SG - DigitalOcean LLC",
       "server": "ava.game.naver.com",
       "server_port": 443,
       "uuid": "fc60147e-76b8-4bc5-b691-90b2da79e3d2",
@@ -271,7 +271,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/159.89.208.94-443",
+        "path": "/143.198.92.220-443",
         "headers": {
           "host": "ava.game.naver.com.balckwolf.dpdns.org"
         }
@@ -280,7 +280,7 @@
     },
     {
       "type": "vless",
-      "tag": "SG - DigitalOcean  LLC [ VLESS - TLS ] 2",
+      "tag": "SG - Amazon",
       "server": "ava.game.naver.com",
       "server_port": 443,
       "uuid": "fc60147e-76b8-4bc5-b691-90b2da79e3d2",
@@ -292,7 +292,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/68.183.235.240-443",
+        "path": "/52.76.110.129-20001",
         "headers": {
           "host": "ava.game.naver.com.balckwolf.dpdns.org"
         }
@@ -301,7 +301,7 @@
     },
     {
       "type": "vless",
-      "tag": "SG - M247 Europe SRL [ VLESS - TLS ]",
+      "tag": "SG - M247 Europe SRL",
       "server": "ava.game.naver.com",
       "server_port": 443,
       "uuid": "fc60147e-76b8-4bc5-b691-90b2da79e3d2",
@@ -322,7 +322,7 @@
     },
     {
       "type": "vless",
-      "tag": "SG - NewMedia Express Pte Ltd [ VLESS - TLS ]",
+      "tag": "SG - Akamai",
       "server": "ava.game.naver.com",
       "server_port": 443,
       "uuid": "fc60147e-76b8-4bc5-b691-90b2da79e3d2",
@@ -334,7 +334,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/113.29.226.134-443",
+        "path": "/192.46.231.158-443",
         "headers": {
           "host": "ava.game.naver.com.balckwolf.dpdns.org"
         }
@@ -343,7 +343,7 @@
     },
     {
       "type": "vless",
-      "tag": "SG - The Constant Company  LLC [ VLESS - TLS ]",
+      "tag": "SG - The Constant Company",
       "server": "ava.game.naver.com",
       "server_port": 443,
       "uuid": "fc60147e-76b8-4bc5-b691-90b2da79e3d2",
@@ -364,7 +364,7 @@
     },
     {
       "type": "vless",
-      "tag": "SG - The Constant Company  LLC [ VLESS - TLS ] 2",
+      "tag": "SG - OVH SAS",
       "server": "ava.game.naver.com",
       "server_port": 443,
       "uuid": "fc60147e-76b8-4bc5-b691-90b2da79e3d2",
@@ -376,7 +376,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/45.76.179.81-443",
+        "path": "/139.99.124.165-443",
         "headers": {
           "host": "ava.game.naver.com.balckwolf.dpdns.org"
         }
@@ -385,7 +385,7 @@
     },
     {
       "type": "vless",
-      "tag": "SG - The Constant Company  LLC [ VLESS - TLS ] 3",
+      "tag": "SG - SG - DigitalOcean",
       "server": "ava.game.naver.com",
       "server_port": 443,
       "uuid": "fc60147e-76b8-4bc5-b691-90b2da79e3d2",
@@ -406,7 +406,7 @@
     },
     {
       "type": "vless",
-      "tag": "SG - CDS Global Cloud Co.  Ltd [ VLESS - TLS ]",
+      "tag": "SG - CDS Global Cloud Co. Ltd",
       "server": "ava.game.naver.com",
       "server_port": 443,
       "uuid": "fc60147e-76b8-4bc5-b691-90b2da79e3d2",
@@ -427,7 +427,7 @@
     },
     {
       "type": "vless",
-      "tag": "SG - DigitalOcean  LLC [ VLESS - TLS ] 3",
+      "tag": "SG - Latitude.sh",
       "server": "ava.game.naver.com",
       "server_port": 443,
       "uuid": "fc60147e-76b8-4bc5-b691-90b2da79e3d2",
@@ -439,7 +439,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/159.223.53.70-8443",
+        "path": "/64.49.14.41-2053",
         "headers": {
           "host": "ava.game.naver.com.balckwolf.dpdns.org"
         }
