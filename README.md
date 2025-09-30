@@ -1,1 +1,1 @@
-# clash.yaml
+# sinbox.json biz
