@@ -1,0 +1,209 @@
+mixed-port: 7890
+mode: rule
+unified-delay: true
+log-level: error
+ipv6: false
+external-controller: 127.0.0.1:9090
+external-ui: ''
+external-ui-url: ''
+external-ui-name: ''
+secret: 143772bab9dfbb86
+find-process-mode: always
+global-client-fingerprint: chrome
+keep-alive-idle: 30
+keep-alive-interval: 30
+disable-keep-alive: false
+
+dns:
+  enable: true
+  prefer-h3: true
+  ipv6: false
+  ipv6-timeout: 300
+  use-hosts: true
+  use-system-hosts: true
+  respect-rules: false
+  enhanced-mode: redir-host
+  fake-ip-filter-mode: blacklist
+  nameserver:
+    - 1.1.1.1
+    - 1.0.0.1
+    - 8.8.8.8
+    - 8.8.4.4
+    - 223.5.5.5
+    - 119.29.29.29
+    - https://dns.cloudflare.com/dns-query
+    - https://dns.alidns.com/dns-query
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+    - 223.5.5.5
+
+tun:
+  enable: true
+  device: ClashMi
+  stack: gvisor
+  dns-hijack:
+    - 198.18.0.2:53
+  auto-route: true
+  auto-detect-interface: true
+  mtu: 9000
+  inet4-address:
+    - 172.19.0.1/30
+
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+# =====================================
+# 🛰️ PROXY SERVERS
+# =====================================
+proxies:
+  - name: SG - Akamai Connected Cloud Linode
+    type: vmess
+    server: collection.linefriends.com
+    port: 443
+    uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+    alterId: 0
+    cipher: zero
+    tls: true
+    servername: collection.linefriends.com.siren-web.benxx.workers.dev
+    network: ws
+    ws-opts:
+      path: /Benxx-Project/139.177.185.88-443
+      headers:
+        Host: collection.linefriends.com.siren-web.benxx.workers.dev
+
+  - name: SG - Alibaba Cloud LLC
+    type: vmess
+    server: collection.linefriends.com
+    port: 443
+    uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+    alterId: 0
+    cipher: zero
+    tls: true
+    servername: collection.linefriends.com.siren-web.benxx.workers.dev
+    network: ws
+    ws-opts:
+      path: /Benxx-Project/47.245.95.160-1443
+      headers:
+        Host: collection.linefriends.com.siren-web.benxx.workers.dev
+
+  - name: SG - M1 LIMITED
+    type: vmess
+    server: collection.linefriends.com
+    port: 443
+    uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+    alterId: 0
+    cipher: zero
+    tls: true
+    servername: collection.linefriends.com.siren-web.benxx.workers.dev
+    network: ws
+    ws-opts:
+      path: /Benxx-Project/138.75.209.209-80
+      headers:
+        Host: collection.linefriends.com.siren-web.benxx.workers.dev
+
+  - name: SG - Vultr Holdings LLC
+    type: vmess
+    server: collection.linefriends.com
+    port: 443
+    uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+    alterId: 0
+    cipher: zero
+    tls: true
+    servername: collection.linefriends.com.siren-web.benxx.workers.dev
+    network: ws
+    ws-opts:
+      path: /Benxx-Project/45.76.179.81-443
+      headers:
+        Host: collection.linefriends.com.siren-web.benxx.workers.dev
+
+  - name: SG - Microsoft Corporation
+    type: vmess
+    server: collection.linefriends.com
+    port: 443
+    uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+    alterId: 0
+    cipher: zero
+    tls: true
+    servername: collection.linefriends.com.siren-web.benxx.workers.dev
+    network: ws
+    ws-opts:
+      path: /Benxx-Project/20.247.137.183-443
+      headers:
+        Host: collection.linefriends.com.siren-web.benxx.workers.dev
+
+# =====================================
+# 🧭 PROXY GROUPS
+# =====================================
+proxy-groups:
+  - name: 🚀 Benxx Project
+    type: select
+    proxies:
+      - ⚡ Auto Select
+      - SG - Akamai Connected Cloud Linode
+      - SG - Alibaba Cloud LLC
+      - SG - M1 LIMITED
+      - SG - Vultr Holdings LLC
+      - SG - Microsoft Corporation
+      - DIRECT
+
+  - name: ⚡ Auto Select
+    type: url-test
+    proxies:
+      - SG - Akamai Connected Cloud Linode
+      - SG - Alibaba Cloud LLC
+      - SG - M1 LIMITED
+      - SG - Vultr Holdings LLC
+      - SG - Microsoft Corporation
+    url: https://www.gstatic.com/generate_204
+    interval: 900
+    lazy: true
+
+  - name: 🎮 Mobile Legends
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 Benxx Project
+
+  - name: 🛑 Ad Blocking
+    type: select
+    proxies:
+      - 🚀 Benxx Project
+      - DIRECT
+      - REJECT
+
+  - name: 🔍 Google Services
+    type: select
+    proxies:
+      - 🚀 Benxx Project
+      - DIRECT
+
+  - name: 🌐 Non-China
+    type: select
+    proxies:
+      - 🚀 Benxx Project
+      - DIRECT
+
+  - name: 🐟 Fall Back
+    type: select
+    proxies:
+      - 🚀 Benxx Project
+      - DIRECT
+
+# =====================================
+# 🎯 RULES
+# =====================================
+rules:
+  # Mobile Legends langsung lewat ISP (Direct)
+  - DOMAIN-SUFFIX,mobilelegends.com,🎮 Mobile Legends
+  - DOMAIN-SUFFIX,mlbbmobile.com,🎮 Mobile Legends
+  - DOMAIN-KEYWORD,mlbb,🎮 Mobile Legends
+  - DOMAIN-SUFFIX,garena.com,🎮 Mobile Legends
+  - DOMAIN-SUFFIX,moba.garena.com,🎮 Mobile Legends
+
+  # Non-game routing
+  - RULE-SET,category-ads-all,🛑 Ad Blocking
+  - RULE-SET,google,🔍 Google Services
+  - RULE-SET,geolocation-!cn,🌐 Non-China
+  - MATCH,🐟 Fall Back
